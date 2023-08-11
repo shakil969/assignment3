@@ -2,7 +2,7 @@
 
 ## Description:
 
-Briefly introduce your project here. Explain what it does, its main features, and its purpose.
+ This is an reataurant type single page web application. Where we used bootstrap for css framework.
 
 # Features
 - Feature 1: users can order food from food menu
