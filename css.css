@@ -6,7 +6,7 @@
     height: 80vh;
     background-size: cover;
     background-position: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.178), rgba(0, 0, 0, 0.041)), url(./bannar.png)  
+    background-image: linear-gradient(rgba(0, 0, 0, 0.178), rgba(0, 0, 0, 0.041)), url(./image/bannar.png)  
 } 
 .text{
     color: #DF6751;
