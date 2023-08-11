@@ -1,0 +1,36 @@
+.bg{
+    background-color: #DF6751;
+  
+}
+ .banner1{
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.178), rgba(0, 0, 0, 0.041)), url(./bannar.png)  
+} 
+.text{
+    color: #DF6751;
+}
+.banner2{
+    background-color: #F8F9FB;
+    border-radius: 0px 0px 5px 5px;
+}
+.team{
+     width: 80px;
+}
+.pizza{
+  
+    padding:0px 100px;  
+} 
+ /* .chilly{
+    width: 40%;
+}
+.food2{
+    width: 60%;
+}  */
+.footer{
+    background-color: #F8F9FB;
+}
+.carousel-indicators {
+    margin-bottom: -1rem;
+}

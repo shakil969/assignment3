@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./css.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+
+<!-- banner1 -->
+  <section class="banner1 text-light">
+    <nav class="navbar navbar-expand-lg text-light">
+        <div class="container">
+          <a class="navbar-brand text-light" href="#">Foodgram</a>
+          <button
+            class="navbar-toggler text-light"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          ></button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-light"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item d-flex">
+                <a class="nav-link text-light" href="">packages</a>
+                <a class="nav-link text-light" href="">Review</a>
+                <a class="nav-link text-light" href="">About Us</a>
+                <a class="nav-link text-light" href="">Contact</a>
+                <a class="nav-link text-light bg rounded-5" href=""
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div
+        class="text-center d-flex justify-content-center align-items-center flex-column h-100"
+      >
+        <h1 class="fa-3x">
+          People who love to eat are always <br />
+          the best people.
+        </h1>
+        <p class=" ">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+          debitis dolorum amet doloremque. <br />
+          Tempora perspiciatis repudiandae architecto vero eaque vel tenetur
+          corrupti, doloremque!
+        </p>
+        <div>
+          <button class="btn bg text-light">Explore our Menu</button>
+          <i class="fa-sharp fa-solid fa-star text"></i>
+          <i class="fa-sharp fa-solid fa-star text"></i>
+          <i class="fa-sharp fa-solid fa-star text"></i>
+          <i class="fa-sharp fa-solid fa-star text"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- banner2 -->
+    <section class="container-fluid banner2 ">
+      <div class="row ">
+        <div class="col d-flex">
+          <div>
+            <img src="./tomatoes1.png" alt="chilly" class="w-50" />
+          </div>
+          <div class="ms-auto">
+            <img src="./egg.png" alt="egg" class="w-50" />
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-center   gap-5 ">
+        <h3>Our foods menus</h3>
+        <p>
+          sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium <br/>
+          doloremque laudantium, totam rem aperiam, eaque ipsa ab illo inventore
+        </p>
+      </div>
+
+   <!-- food4  -->
+      <div class="container py-5">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 ">
+
+          <div class="card col  border-0 rounded-5 shadow">
+            <img
+              src="./menu-1.png"
+              class="card-img-top w-100 h-100 text-center"
+              alt="..."
+            />
+            <div class="card-body text-center">
+              <h5>Mutton briyani recipe</h5>
+            </div>
+
+            <div class="d-flex">
+              <div class="">
+                <p>$6.50</p>
+              </div>
+              <div class="ms-auto mx-2">
+                <button class="border-0 bg rounded-3">Oder Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card col border-0 rounded-5 shadow">
+            <img
+              src="./menu-2.png"
+              class="card-img-top w-100 h-100"
+              alt="..."
+            />
+            <div class="card-body text-center">
+              <h5>Chicken roast recipe</h5>
+            </div>
+
+            <div class="d-flex">
+              <div>
+                <p>$6.30</p>
+              </div>
+              <div class="ms-auto mx-2">
+                <button class="border-0 bg rounded-3">Oder Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card col border-0 rounded-5 shadow">
+            <img
+              src="./menu-3.png"
+              class="card-img-top w-100 h-100"
+              alt="..."
+            />
+            <div class="card-body text-center">
+              <h5>Great Pasta</h5>
+            </div>
+
+            <div class="d-flex">
+              <div>
+                <p>$6.55</p>
+              </div>
+              <div class="ms-auto mx-2">
+                <button class="border-0 bg rounded-3">Oder Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card col border-0 rounded-5 shadow">
+            <img
+              src="./menu-4.png"
+              class="card-img-top w-100 h-100"
+              alt="..."
+            />
+            <div class="card-body text-center">
+              <h5>Barbeeue Chicken Fried</h5>
+            </div>
+
+            <div class="d-flex">
+              <div>
+                <p>$4.75</p>
+              </div>
+              <div class="ms-auto mx-2">
+                <button class="border-0 bg rounded-3">Oder Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- banner3 -->
+     <section class="py-3 "> 
+        <div class="row w-100 overflow-hiddenb">   
+         <div class=" food2 col-lg-6 col-md-12">
+          <div>
+            <img
+              src="./mask-image.png"
+              alt="mask image"
+              class="mask position-absolute w-25 h-75 d-none d-md-inline"
+            />
+          </div>
+
+          <div class="pizza">
+            <img
+              src="./pizza.png"
+              alt="pizza image"
+              class="position-relative bg-white rounded-circle w-100"
+            />
+          </div>
+        </div> 
+
+        <div
+          class="col chilly d-flex justify-content-center align-items-center flex-column"
+        >
+          <div>
+            <h1>
+              Part of the secret of succes is to eat what youlike and let the
+              food fight it out iside.
+            </h1>
+            <p class="py-4">
+              But I must explain to you how all this mistaken idea of denouncing
+              pleasure and praising pain was born 
+              and I will give a complete account of the system
+            </p>
+            <button class="btn bg">Learm More</button>
+
+            <div class="text fa-2x">
+              <i class="fa-solid fa-circle-arrow-right"></i>
+              <i class="fa-solid fa-circle-arrow-left"></i>
+            </div>
+          </div>
+          <div>
+            <img src="./chilly.png" alt="" class="w-75" />
+          </div>
+        </div>
+      </div>
+    </section>  
+
+    <!-- banner4 -->
+    <section class="container">
+      <div class="text-center mt-5">
+        <h1>Food of the Month</h1>
+        <p>
+          But I must explain to you how all this mistaken idea of denouncing
+          pleasure and praising pain was born <br />
+          and I will give a complete account of the system
+        </p>
+      </div>
+
+      <div class="row ">
+        <div class="card  border-0 rounded-5 shadow col-12 col-md-4">
+          <img
+            src="./food-1.png"
+            class="card-img-top w-100 h-100 text-center"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5>Little Cacsars Craxy Brcad</h5>
+            <p>
+              But I must explain to you how all this mistaken idea of I will
+              give a complete account of the system
+            </p>
+          </div>
+          <div class="d-flex">
+            <div class="mx-3">
+              <p>$6.30</p>
+            </div>
+            <div class="ms-auto mx-4">
+              <button class="border-0 bg rounded-3">Oder Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card col-12 col-md-4 border-0 rounded-5 shadow">
+          <img src="./food-2.png" class="card-img-top w-100 h-100" alt="..." />
+          <div class="card-body">
+            <h5>Two-piece Fish Meal</h5>
+            <p>
+              But I must explain to you how all this mistaken idea of I will
+              give a complete account of the system
+            </p>
+          </div>
+          <div class="d-flex">
+            <div class="mx-3">
+              <p>$6.30</p>
+            </div>
+            <div class="ms-auto mx-4">
+              <button class="border-0 bg rounded-3">Oder Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card col-12 col-md-4 border-0 rounded-5 shadow">
+          <img src="./food-3.png" class="card-img-top w-100 h-100" alt="..." />
+          <div class="card-body">
+            <h5>Dunkin' Munchlins</h5>
+            <p>
+              But I must explain to you how all this mistaken idea of I will
+              give a complete account of the system
+            </p>
+          </div>
+          <div class="d-flex">
+            <div class="mx-3">
+              <p>$6.30</p>
+            </div>
+            <div class="ms-auto mx-4">
+              <button class="border-0 bg rounded-3">Oder Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="text-center py-4">
+          <button class="btn bg text-light">Explore our Menu</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- banner5 -->
+    <section class="container py-5">
+      <div class="row">
+        <div class="col">
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions "
+                data-bs-slide-to="0"
+                class="active bg-dark"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions "
+                data-bs-slide-to="1"
+                class="active bg-dark"
+                aria-current="true"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions "
+                data-bs-slide-to="2"
+                class="active bg-dark"
+                aria-current="true"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner text-center">
+              <div class="carousel-item active">
+                <h1>What our popular customers are saying</h1>
+                <div class="d-flex justify-content-center py-5">
+                  <img
+                    src="./team-1.jpg"
+                    class="d-block rounded-circle team"
+                    alt="..."
+                  />
+
+                  <div class="align-items-center">
+                    <h6>Serhiy Hipsky</h6>
+                    <p>CEO Universal</p>
+                  </div>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+                  eum quibusdam veniam nulla, nobis, pariatur eos laborum
+                  quaerat aspernatur quia fuga odit ducimus! Ducimus ipsum
+                  cumque suscipit! Eius rerum, vitae illum laborum aliquid totam
+                  at quas maiores. Excepturi, adipisci aliquam! ipsum dolor sit,
+                  amet consectetur adipisicing elit. Corporis laudantium hic
+                  omnis distinctio eum praesentium doloribus, quibusdam
+                  voluptates deserunt ipsam!
+                </p>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>
+                    Some representative placeholder content for the first slide.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <h1>What our popular customers are saying</h1>
+                <div class="d-flex justify-content-center py-5">
+                  <img
+                    src="./team-2.jpg"
+                    class="d-block rounded-circle team"
+                    alt="..."
+                  />
+
+                  <div>
+                    <h6>Serhiy Hipsky</h6>
+                    <p>CEO Universal</p>
+                    <p></p>
+                  </div>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+                  eum quibusdam veniam nulla, nobis, pariatur eos laborum
+                  quaerat aspernatur quia fuga odit ducimus! Ducimus ipsum
+                  cumque suscipit! Eius rerum, vitae illum laborum aliquid totam
+                  at quas maiores. Excepturi, adipisci aliquam! ipsum dolor sit,
+                  amet consectetur adipisicing elit. Corporis laudantium hic
+                  omnis distinctio eum praesentium doloribus, quibusdam
+                  voluptates deserunt ipsam!
+                </p>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>
+                    Some representative placeholder content for the second
+                    slide.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <h1>What our popular customers are saying</h1>
+                <div class="d-flex justify-content-center py-5">
+                  <img
+                    src="./team-3.jpg"
+                    class="d-block rounded-circle team"
+                    alt="..."
+                  />
+
+                  <div>
+                    <h6>Serhiy Hipsky</h6>
+                    <p>CEO Universal</p>
+                    <p></p>
+                  </div>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+                  eum quibusdam veniam nulla, nobis, pariatur eos laborum
+                  quaerat aspernatur quia fuga odit ducimus! Ducimus ipsum
+                  cumque suscipit! Eius rerum, vitae illum laborum aliquid totam
+                  at quas maiores. Excepturi, adipisci aliquam! ipsum dolor sit,
+                  amet consectetur adipisicing elit. Corporis laudantium hic
+                  omnis distinctio eum praesentium doloribus, quibusdam
+                  voluptates deserunt ipsam!
+                </p>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>
+                    Some representative placeholder content for the third slide.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev btn"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon bg-dark"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+
+            <!-- <button class="carousel-control-next  " type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-next-icon " aria-hidden="true"></span>
+            <span class="visually-hidden ">next</span>
+          </button>  -->
+
+            <button
+              class="carousel-control-next btn"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon bg-dark"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footerarea-->
+    <section  class=" footer  shadow rounded-4 ">
+      <div class="container">
+        <div class="row  align-items-center ">
+          <div class=" col-12 col-md-3 border-end">
+            <h3 >Foodgram</h3>      
+            <p>Jhenaidah Sador, jhenaidah-7300, Dhaka, Bangladesh</p>
+            <div>
+              <i class="fa-brands fa-facebook text fa-2x"></i>
+              <i class="fa-brands fa-twitter text fa-2x px-3"></i>
+              <i class="fa-brands fa-instagram text fa-2x"></i>
+            </div>
+          </div>
+          <div class=" col-12 col-md-3 border-end ms-auto">
+           <h3 >Quick Links</h3>
+           <a class="d-flex text-black text-decoration-none" href="#">Home</a>
+           <a class="d-flex text-black text-decoration-none" href="#">Packages</a>
+           <a class="d-flex text-black text-decoration-none" href="#">Review</a>
+           <a class="d-flex text-black text-decoration-none" href="#">About Us</a>
+           <a class="d-flex text-black text-decoration-none" href="#">contact Us</a>
+          </div>
+          <div class="col-12 col-md-3 ms-auto">
+            <h3> Contact Us</h3>
+              <p><i class="fa-solid fa-phone text fa-1x "></i>+8801966-770686</p>
+             <p><i class="fa-solid fa-envelope text fa-1x "></i>ataharnurshakil@gmail.com</p>
+             <p ><i class="fa-solid fa-location-dot text fa-1x "></i>Jhenaidah-7300, Dhaka Bangladesh</p>
+         </div>
+         <hr class=" border-2">
+          <p class="text-center ">Copyright © 2023 SHAKIL, All Rights Reserved</p>
+        </div>
+      </div>
+    </section>
+
+
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
